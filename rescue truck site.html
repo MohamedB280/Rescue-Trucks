@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mon Site avec Modèle 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <img src="logo_rescue_truck_X-01.jpg" alt="Image 1">
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#model3d">Modèle 3D</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue sur Rescue Truck</h1>
+            <p>Découvrez notre modèle de rescue truck et ses fonctionalité</p>
+            <a href="#services" class="btn">Information</a>
+        </div>
+    </section>
+
+    <!-- Section des services -->
+    <section id="services">
+        <h2>Information</h2>
+        <div class="services-container">
+            <div class="service-item">
+                <h3>Cible 1</h3>
+                <p>Suivre les lignes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Cible 2</h3>
+                <p>Reconnaitre si les cibles sont mortes ou vivantes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Cible 3</h3>
+                <p>Pouvoir transporter des cibles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Modèle 3D -->
+    <section id="model3d">
+        <h2>Modèle 3D</h2>
+        <div class="model-container">
+            <canvas id="3dmodel"></canvas>
+        </div>
+    </section>
+
+    <!-- Section Galerie -->
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="gallery-container">
+            <img src="rover_spacial.jpg" alt="Image 1">
+            <img src="img002.jpg" alt="Image 2">
+            <img src="img003.jpg" alt="Image 3">
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 All right reserved.</p>
+    </footer>
+</body>
+</html>
